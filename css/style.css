@@ -3,23 +3,17 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
-button {
-  cursor: pointer;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-button:hover,
-button:focus {
-  background-color: #404bbf;
-}
+
 ul {
   list-style-type: none;
 }
 section .section-title {
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .logo {
@@ -74,23 +68,51 @@ section .section-title {
 }
 
 /* Hero */
-#hero {
+.hero {
   background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
 }
-
-#hero button {
-  width: 169px;
-  height: 56px;
+.hero .title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero .btn {
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 500;
   border: none;
+  cursor: pointer;
 }
 
-#team {
+.hero .btn:hover,
+.hero .btn:focus {
+  background-color: #404bbf;
+}
+
+.features .feature-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.features .feature-list .description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team {
   background-color: #f4f4fd;
+}
+.team .section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
 }
 
 footer {
@@ -101,6 +123,8 @@ footer {
 footer .logo span {
   color: white;
 }
-footer .logoInfo {
-  width: 270px;
+footer .detail {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
