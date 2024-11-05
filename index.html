@@ -5,65 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@0,700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="./index.html">Webstudio</a>
-        <ul>
+        <a class="logo" href="./index.html">WEB<span>STUIDO</span></a>
+        <ul class="nav-list">
           <li><a href="#">Studio</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="address-list">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>effective solutions for your business</h1>
+      <section id="hero">
+        <h1>Effective solutions for your business</h1>
         <button type="button">order service</button>
       </section>
 
-      <section>
+      <section id="features">
         <h2 hidden>Our Features</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>
-              strategy
-            </h3>
+            <h3>strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>
-              punctuality
-            </h3>
+            <h3>punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>
-              diligence
-            </h3>
+            <h3>diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>
-              technologies
-            </h3>
+            <h3>technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -72,9 +79,9 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Our Team</h2>
-        <ul>
+      <section id="team">
+        <h2 class="title">Our Team</h2>
+        <ul class="list">
           <li>
             <img src="./images/mark.jpg" width="264" alt="Mark Guerrero" />
             <h3>Mark Guerrero</h3>
@@ -100,15 +107,86 @@
           </li>
         </ul>
       </section>
+      <section id="portfolio">
+        <h2 class="title">Our Portfolio</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/bankingApp.jpg"
+               width="360" height="300"
+              alt="Banking App"
+            />
+            <div>
+            <h3>Banking App</h3>
+            <p>App</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="./images/cashlessPayment.jpg"
+              width="360" height="300"
+              alt="Cashless Payment"
+            />
+            <div>
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+            </div>
+          </li>
+        
+            <img
+              src="./images/mediationApp.jpg"
+              width="360" height="300"
+              alt="Meditation App"
+            />
+            <div>
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </div>
+          </li>
+          <li>
+            <img
+              src="./images/taxiService.jpg"
+              width="360" height="300"
+              alt="Taxi Service"
+            />
+            <div>
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="./images/taxiService.jpg"
+              width="360" height="300"
+              alt="Screen Illustrations"
+            />
+            <div>
+              <h3>Screen Illustrations</h3>
+              <p>Design</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="./images/onlineCourses.jpg"
+              width="360" height="300"
+              alt="Online Courses"
+            />
+            <div>
+              <h3>Online Courses</h3>
+              <p>Marketing</p>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer>
-      <a href="./index.html">
-        webstudio
-      </a>
+      <div class="logoInfo">
+      <a class="logo" href="./index.html">WEB<span>STUIDO</span></a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,0 +1,96 @@
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  color: #434455;
+}
+button {
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+section .title {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+.logo span {
+  color: #2e2f42;
+}
+
+.nav-list li {
+  color: #2e2f42;
+}
+.nav-list li:hover {
+  color: #404bbf;
+}
+.nav-list li a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.address-list li {
+  color: #2e2f42;
+}
+.address-list li:hover {
+  color: #404bbf;
+}
+.address-list li a {
+  color: inherit;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* Hero */
+#hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+}
+
+#hero button {
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+}
+
+#team {
+  background-color: #f4f4fd;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: white;
+}
+
+footer .logo span {
+  color: white;
+}
+footer .logoInfo {
+  width: 270px;
+}
